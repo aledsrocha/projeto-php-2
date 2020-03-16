@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html body{
+   font-family: Arial;
+   background: url(../img/back.png)red;
+  
+   background-attachment: fixed;
+    height: 100%;
+  font-weight: 800;
+  font-family: Arial;
+  overflow-x: hidden;
+  }
+
+nav{
+  position: fixed;
+}
+
+#navbarResponsive{
+  font-size: 25px;
+
+}
+
+
+#navbarResponsive a:hover{
+  background-color: #1C1C1C;
+
+}
+
+#biografia h1{
+  text-align: center;
+  color: black;
+  opacity: 10.0;
+  text-shadow: 1px 1px 2px white; 
+  
+
+}
+
+#biografia{
+  text-align: center;
+
+}
+
+#biografia p{
+  color: black;
+}
+
+#moda{
+background-color:#58ACFA;
+background-image:linear-gradient(-87deg, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.08) 49%,rgba(255,255,255,0.03) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0.4) 100%);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#moda h4{
+  color: white;
+  padding-top: 25px;
+  font-size: 30px;
+  border-bottom: 3px solid red;
+  border-bottom: 3px solid red;
+  text-shadow: #CCC 1px 0 10px;
+
+}
+#moda img{
+  border-radius: 50px;
+
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    padding-bottom: 50px;
+  
+
+}
+
+#moda img:hover{
+  -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+
+#form{
+  width: 960px;
+  margin:0 auto;
+}
+
+label{
+  display:block;
+  margin-top:15px;
+}
+input{
+  display:block;
+  height:40px;
+  border:1px solid #e5e5e5;
+  background:#f0f0f0;
+  padding:10px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.g-recaptcha{
+  margin-top:15px;
+}
+.send{
+  background: #46ac00;
+  color: #fff;
+  border: 0px;
+}
+
+footer{
+  background: black;
+  text-align: center;
+}
+
+footer h4{
+  color: white;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li a:hover{
+  text-decoration: none;
+  color: red;
+}
+
